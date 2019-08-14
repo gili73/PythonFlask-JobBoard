@@ -47,3 +47,6 @@ Every time you want to check your work locally you can type that command, and it
 ### Previewing Your Work
 
 You can preview your work by running `flask run` in the root of your fork and then visit`http://localhost:5000` in your browser.
+Gili - actually because of a bug described here:
+https://stackoverflow.com/questions/57114348/flask-reloader-crashes-with-no-module-named-scripts-flask-on-windows
+you should run in at least in  windows `py -m flask run`.
